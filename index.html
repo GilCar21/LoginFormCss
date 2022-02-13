@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    
+    <main>
+        <div class="login">
+            <header>
+                <img src="./images/logo.svg" alt="Logo">
+            </header>
+            <div class="card">
+                <h2><img src="./images/log-in.svg" alt="img"> Faça seu login</h2>
+                <small class="text">Entre com suas informaçoes de cadastro</small>
+
+                <form action="post">
+                    <label for="email">E-mail</label>
+                    <br>
+                    <input class="dados" type="email" name="email" id="email" placeholder="Digite seu email" autofocus src="./images/mail-focus.svg">
+                    <br>
+                    <br>
+                    <label for="senha">Senha</label>
+                    <br>
+                    <input class="dados" type="password" name="senha" id="senha" placeholder="Digite sua senha">
+                    <br>
+                    <br>
+                    <div id="lem">
+                        <input type="checkbox" name="lembrar" id="lembrar">
+                        <label for="lembrar" class="text">Lembre-me</label>
+                        <a href="#" class="text">Esqueci minha senha</a>
+                    </div>
+                    <div class="button">
+                        <button>Entrar</button>
+                        <p class="text">Não tem uma conta?<a href="#">Registre-se</a></p>
+                </div>
+                </form>
+            </div>
+        </div>
+        <div class="img">
+            <img src="./images/side-image.jpg" alt="imagem">
+        </div>
+    </main>
+
+</body>
+
+</html>
